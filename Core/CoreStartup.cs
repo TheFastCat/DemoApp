@@ -5,7 +5,7 @@
     using Microsoft.Owin.StaticFiles;
     using Owin;
 
-    public class CoreStartup
+    public class Startup
     {
         public void Configuration(IAppBuilder app)
         {

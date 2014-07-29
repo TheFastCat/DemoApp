@@ -93,6 +93,10 @@
       <Project>{cb569fed-c319-4e0d-a49c-82047a623ad4}</Project>
       <Name>Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\UI\UI.csproj">
+      <Project>{43ba1d56-e6d3-42a7-9d90-d5b6ff8c98fe}</Project>
+      <Name>UI</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

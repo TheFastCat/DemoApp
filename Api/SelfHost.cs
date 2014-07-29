@@ -12,7 +12,7 @@
             string baseAddress = "http://localhost:4445/";
 
             // Start OWIN host 
-            using (WebApp.Start<ApiStartup>(url: baseAddress))
+            using (WebApp.Start<Startup>(url: baseAddress))
             {
                 Console.ForegroundColor = ConsoleColor.Magenta;
 

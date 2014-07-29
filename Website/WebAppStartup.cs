@@ -2,17 +2,15 @@
 using Microsoft.Owin.Extensions;
 using System;
 using System.Net;
-using Core;
-using Api;
 
 namespace Website
 {
-    public class WebAppStartup
+    public class Startup
     {
         public void Configuration(IAppBuilder app)
         {
-            new ApiStartup().Configuration(app);
-            new CoreStartup().Configuration(app);
+            new Api.Startup().Configuration(app);
+            new Core.Startup().Configuration(app);
         }
     }
 }

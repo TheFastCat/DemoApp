@@ -7,7 +7,7 @@ using System.Web.Http;
 
 namespace Api
 {
-    public class ApiStartup
+    public class Startup
     {
         public void Configuration(IAppBuilder app)
         {

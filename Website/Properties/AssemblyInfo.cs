@@ -37,4 +37,4 @@ using Website;
 [assembly: AssemblyFileVersion("1.0.0.0")]
 
 // This kicks off the OWIN pipeline using Startup class defined in a separate assembly/namespace
-[assembly: OwinStartup(typeof(WebAppStartup))]
+[assembly: OwinStartup(typeof(Startup))]
